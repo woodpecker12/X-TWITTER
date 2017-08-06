@@ -12,7 +12,7 @@ describe "Static pages" do
   describe "Home page" do
     it "should have the content 'Sample App'" do
       visit "#{home_page}"
-      page.should have_content('Sample App')
+      page.should have_content('X Twitter')
     end
 
     it "should have title 'X Twitter | Home'" do
