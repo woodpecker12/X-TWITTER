@@ -13,6 +13,7 @@ gem 'test-unit'
 gem 'pg', '0.15.1'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sass-rails', '~> 4.0.0'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   # gem 'rspec-rails', '2.13.1'
